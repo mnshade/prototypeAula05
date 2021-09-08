@@ -6,9 +6,7 @@ class PlanetasNoMansSkyTest {
 
     @Test
     void testClone() throws CloneNotSupportedException {
-        PlanetasNoMansSky mainPlanet = new PlanetasNoMansSky(
-                "Terra", "Lush", "Infested", 4, "Life Chance"
-        );
+        PlanetasNoMansSky mainPlanet = new PlanetasNoMansSky("Terra", "Lush", "Infested", 4, "Life Chance");
         PlanetasNoMansSky planetClone = mainPlanet.clone();
         planetClone.setNome("L 98-59");
         planetClone.setTipo("Barren");
