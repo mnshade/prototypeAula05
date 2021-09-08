@@ -1,4 +1,4 @@
-public class PlanetasNoMansSky {
+public class PlanetasNoMansSky implements Cloneable{
     private String nome;
     private String tipo;
     private String biomaSubtipo;
@@ -61,6 +61,6 @@ public class PlanetasNoMansSky {
 
     @Override
     public String toString() {
-        return "PlanetasNoMansSky{" + "Nome: '" + nome + '\'' + ", Tipo: '" + tipo + '\'' + ", Bioma Subtipo: " + biomaSubtipo + ", Bioma Probabilidade: '" + biomaProbabilidade + '\'' + ", Propriedades:'" + propriedades + '}';
+        return "PlanetasNoMansSky{" + "Nome: '" + nome + '\'' + ", Tipo: '" + tipo + '\'' + ", Bioma Subtipo: " + biomaSubtipo + ", Bioma Probabilidade: '" + biomaProbabilidade + '\'' + ", Propriedades:'" + propriedades;
     }
 }

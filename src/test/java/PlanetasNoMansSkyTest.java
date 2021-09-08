@@ -12,8 +12,8 @@ class PlanetasNoMansSkyTest {
         planetClone.setTipo("Barren");
         planetClone.setBiomaProbabilidade(2);
 
-        assertEquals("PlanetasNoMansSky{Nome: 'Terra', Tipo: 'Lush', Bioma Subtipo: Infested, Bioma Probabilidade: 4 , Propriedades: 'Life Chance'}", mainPlanet.toString());
-        assertEquals("PlanetasNoMansSky{Nome: 'L 98-59', Tipo: 'Barren', Bioma Subtipo: Infested, Bioma Probabilidade: 2 , Propriedades: 'Life Chance'}", planetClone.toString());
+        assertEquals("PlanetasNoMansSky{Nome: 'Terra', Tipo: 'Lush', Bioma Subtipo: Infested, Bioma Probabilidade: '4.0', Propriedades:'Life Chance", mainPlanet.toString());
+        assertEquals("PlanetasNoMansSky{Nome: 'L 98-59', Tipo: 'Barren', Bioma Subtipo: Infested, Bioma Probabilidade: '2.0', Propriedades:'Life Chance", planetClone.toString());
 
     }
 }
